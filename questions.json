@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "pattern": [
+    {"seq":["🍎","🍌","🍎","🍌"],"answer":"🍎","options":["🍎","🍇","🍌","🍊"]},
+    {"seq":["⭐","⭐","🌙","⭐","⭐"],"answer":"🌙","options":["⭐","🌙","☀️","☁️"]},
+    {"seq":["🐱","🐶","🐱","🐶"],"answer":"🐱","options":["🐶","🐱","🐰","🦊"]},
+    {"seq":["🔥","🔥","🐉","🔥","🔥"],"answer":"🐉","options":["🔥","🐉","🌸","🍎"]},
+    {"seq":["🔴","🔵","🔴","🔵"],"answer":"🔴","options":["🔴","🔵","🟢","🟡"]},
+    {"seq":["🍓","🍓","🍇","🍓","🍓"],"answer":"🍇","options":["🍓","🍇","🍌","🍎"]}
+  ],
+  "spelling": [
+    {"word":"CAT","hint":"🐱 Cute pet","wrong":["BAT","LOG","FISH"]},
+    {"word":"DOG","hint":"🐶 Friendly pup","wrong":["LOG","BAT","BIRD"]},
+    {"word":"STAR","hint":"⭐ Shines at night","wrong":["MOON","FISH","BIRD"]},
+    {"word":"SUN","hint":"☀️ Bright in sky","wrong":["MOON","BAT","FISH"]},
+    {"word":"DUCK","hint":"🦆 Quack quack","wrong":["BIRD","FISH","LOG"]},
+    {"word":"FROG","hint":"🐸 Green hopper","wrong":["LOG","MOON","BIRD"]}
+  ],
+  "math": [
+    {"q":"3 + 4 = ?","answer":"7","wrong":["8","6","9"]},
+    {"q":"5 + 2 = ?","answer":"7","wrong":["8","6","9"]},
+    {"q":"6 + 3 = ?","answer":"9","wrong":["10","8","11"]},
+    {"q":"8 + 5 = ?","answer":"13","wrong":["14","12","15"]},
+    {"q":"7 + 6 = ?","answer":"13","wrong":["14","12","15"]},
+    {"q":"9 + 4 = ?","answer":"13","wrong":["14","12","15"]},
+    {"q":"9 − 4 = ?","answer":"5","wrong":["6","4","7"]},
+    {"q":"8 − 3 = ?","answer":"5","wrong":["6","4","7"]},
+    {"q":"10 − 6 = ?","answer":"4","wrong":["5","3","6"]},
+    {"q":"12 − 5 = ?","answer":"7","wrong":["8","6","9"]},
+    {"q":"15 − 8 = ?","answer":"7","wrong":["8","6","9"]},
+    {"q":"14 − 9 = ?","answer":"5","wrong":["6","4","7"]}
+  ]
+}
